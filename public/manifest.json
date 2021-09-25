@@ -1,0 +1,22 @@
+{
+    "name":"Amazin",
+    "short_name":"An",
+    "icons":[
+        {
+            "src":"./favicon.ico",
+            "sizes":"16x16",
+            "type":"image/x-icon"
+        },
+        {
+            "src":"./vercel.svg",
+            "sizes":"48x48",
+            "type":"image/svg+xml"
+        }
+    ],
+    "start_url":"/",
+    "display":"standalone",
+    "theme_color":"#ffffff",
+    "background_color":"#ffffff",
+    "orientation": "portrait"
+    
+}
