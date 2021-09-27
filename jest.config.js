@@ -34,6 +34,8 @@ module.exports = {
     "<rootDir>/node_modules/",
     "<rootDir>/.history/",
   ],
+  setupFiles: ["<rootDir>/enzyme.js"],
+  testURL: 'http://localhost',
   setupFilesAfterEnv: ["<rootDir>/setupTests.js"],
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",

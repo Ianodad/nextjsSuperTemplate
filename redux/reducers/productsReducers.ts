@@ -1,19 +1,16 @@
-
-
 export interface ProductsType {
-    products: any[];
-  }
-  
+  products: any[];
+}
 
 const initialState: ProductsType = {
-	products: [],
+  products: [],
 };
 
-export const productsReducer = (state = initialState, action:any) => {
-    switch (action.type) {
-        case 'GET_PRODUCTS':
-            return {...state, products:action.product};
-        default:
-            return state;
-    }
-}
+export const productsReducer = (state = initialState, action: any) => {
+  switch (action.type) {
+    case 'GET_PRODUCTS':
+      return {...state, products: action.product};
+    default:
+      return state;
+  }
+};
