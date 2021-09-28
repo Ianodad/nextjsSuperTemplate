@@ -1,9 +1,10 @@
 import handler from '@pages/api/hello';
-import {createMocks} from 'node-mocks-http';
+import type { NextApiRequest, NextApiResponse } from 'next';
+import { createMocks } from 'node-mocks-http';
 
 describe('/api/hello', () => {
   test('returns a message with the specified name', async () => {
-    const {req, res} = createMocks({
+    const { req: NextApiRequest, res: NextApiResponse } = createMocks({
       method: 'GET',
     });
 

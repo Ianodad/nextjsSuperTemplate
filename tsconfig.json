@@ -1,29 +1,29 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "baseUrl": ".",
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "isolatedModules": true,
-        "jsx": "preserve",
-        "lib": ["dom", "dom.iterable", "esnext"],
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noEmit": true,
-        "paths": {
-            "@components/*": ["components/*"],
-            "@styles/*": ["styles/*"],
-            "@pages/*": ["pages/*"],
-            "@hooks/*": ["hooks/*"]
-        },
-        "pretty": true,
-        "resolveJsonModule": true,
-        "skipLibCheck": true,
-        // "target": "es5",
-        "strict": false,
-        "target": "es2018"
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@pages/*": ["pages/*"],
+      "@hooks/*": ["hooks/*"]
     },
-    "exclude": ["node_modules"],
-    "files": ["pages/index.tsx"],
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"]
+    "pretty": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    // "target": "es5",
+    "strict": false,
+    "target": "es2018"
+  },
+  "exclude": ["node_modules", "next.config.js"],
+  "files": ["pages/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"]
 }

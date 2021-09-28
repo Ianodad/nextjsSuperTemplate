@@ -9,6 +9,7 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'eslint:recommended',
+    'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:jest/recommended',
     'plugin:promise/recommended',
@@ -40,6 +41,7 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
+    'no-console': 'warn',
     // indent: ["error", "tab"],
     'linebreak-style': ['error', 'unix'],
     // quotes: ['error', 'single'],
