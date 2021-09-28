@@ -52,10 +52,14 @@ npm run dev:up
 
 ```console
 cd nextjsSuperTemplate
+```
 
-
+```console
 docker build -t nextjsSuperTemplate .
 
+```
+
+```console
 docker run --name nextjsSuperTemplate -d -p 3000:3000 nextjsSuperTemplate:latest
 ```
 
